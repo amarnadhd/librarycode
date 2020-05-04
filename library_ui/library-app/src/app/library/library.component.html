@@ -1,0 +1,7 @@
+<h2>Library List</h2>
+
+<ng-container *ngFor='let library of libraries'>
+    <a routerLink="/book/{{library.libraryId}}">
+        {{library.name}}
+    </a><br>
+</ng-container>
